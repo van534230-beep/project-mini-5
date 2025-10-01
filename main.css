@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .container {
-    height: 100vh;
     border: 2px solid red;
 }
 header{
@@ -69,7 +68,7 @@ header{
 }
 .middle{
     width: 50%;
-    height: 80vh;
+    min-height: 80vh;
     font-size: 22px;
 }
 .middle1{
@@ -126,7 +125,6 @@ header{
     line-height: 1.6;
     padding: 15px 0 25px 0;
 }
-
 footer{
     
     background-color:rgb(237, 123, 142);
