@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    border: 2px solid red;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(237, 123, 142);
+}
+.logo-tren{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(191, 91, 108);
+    background-color: white;
+    height: 6vh;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 5px 5px rgb(237, 198, 205);   /*để tạo độ bóng cho văn bản*/
+}
+.logo-duoi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 123, 142);
+    height: 4vh;
+}
+.logo-duoi12{
+    height: 3vh;
+    width: 4vh;
+    border-right: 2px solid purple;
+   padding-right: 5px;
+}
+.logo-duoi1{
+    color: white;
+    border-right: 2px solid purple;
+    padding: 5px 20px;
+}
+.logo-duoi2{
+    padding: 5px 20px;
+}
+.center{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 20%;
+    height: 80vh;
+}
+.left-mon{
+    color: white;
+    background-color: rgb(237, 123, 142);
+    border-radius: 20px; /*bo góc cạnh*/
+    padding: 5px;
+    margin: 10px 4px 10px 0;
+}
+.company{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 ;
+    object-fit: cover;
+}
+.middle{
+    width: 50%;
+    height: 80vh;
+    font-size: 22px;
+}
+.middle1{
+    color: brown;
+    letter-spacing: 17px;
+    background-color: rgb(237, 123, 142);
+    margin-left: 5px;
+    width: 50vh;
+    padding: 2px 20px 2px 2px;
+    font-weight: 900;
+    align-items:  center;
+    margin: 5px auto;
+}
+.middle2{
+    color: red;
+    font-weight: 900;
+}
+.form-box{
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.right{
+    width: 30%;
+    height: 70vh;
+    background-color: black;
+    padding: 20px;
+    margin: 5px;
+    overflow-y: auto; /*nếu nội dung cao hơn phần tử -> 
+                      thanh cuộn theo chiều dọc sẽ xuất hiện*/
+}
+.right1{
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.right2{
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 15px 0 15px 0;
+}
+.right3{
+    height: 100%;
+    width: 200px;
+    display: block;
+}
+.right4{
+    color: white;
+    margin: 0;
+    line-height: 1.6;
+    padding: 15px 0 25px 0;
+}
+
+footer{
+    
+    background-color:rgb(237, 123, 142);
+    display: flex;
+    justify-content: center;  /*căn giữ ngang*/
+    align-items: center; /*căn chữ giữ dọc*/
+    height: 10vh;
+    color: white;
+}
