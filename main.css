@@ -68,7 +68,7 @@ header{
 }
 .middle{
     width: 50%;
-    min-height: 80vh;
+    height: 80vh;
     font-size: 22px;
 }
 .middle1{
@@ -131,6 +131,6 @@ footer{
     display: flex;
     justify-content: center;  /*căn giữ ngang*/
     align-items: center; /*căn chữ giữ dọc*/
-    height: 10vh;
+    height: 5vh;
     color: white;
 }
